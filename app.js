@@ -38,6 +38,7 @@ function myFunction(num) {
  //#6: Reduce
  var arr = [2, 3, 5, 10]
  function multiply(arr){
+   arr.reduce(main());
    }
  function main(total, num){
   return total * num;
